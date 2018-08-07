@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    margin-bottom: 25px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* media queries will have 2 {{}} the 'command' goes in one, then the 'class' */
+
+@media screen and (max-width: 992px) { 
+    body {background-color: aliceblue;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {background-color: bisque;}  
+}
+
+@media screen and (max-width: 767px) {
+    body {background-color: beige;}
+}
+
+.pageHeader {
+    font: small-caps bold 24px/1 sans-serif;
+    /* font-family: 'Sacramento', cursive; */
+    color: purple;
+    /* border-color: blueviolet; */
+    /* border-style: solid; */
+    /* max-width: 400px; */
+    text-align: center;
+    margin: 30px 50px 20px;
+    padding: 15px 25px, 0px 10px;
+}
+
+#headshot {
+    float: left;
+    max-width: 500px;
+    padding: 20px;
+    height: 375px;
+    background-color: powderblue;
+    margin: 80px;
+    border-radius: 20%;
+}
+
+.flexNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* direction: rtl; */
+    align-items: baseline;
+    align-content: space-around;
+    /* border-color: aquamarine; */
+    /* border-style: solid; */
+    /* display: inline; */
+    flex-basis: auto;
+}
+
+.flexNavList {
+    display: inline-block;
+    margin: 5px;
+    /* padding-right: 1em;    */
+    /* border-color: orange; */
+    /* border-style: solid;  */
+}
+
+.flexIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
+    /* border-color: yellow; */
+    /* border-style: solid; */
+    /* padding: 10px; */
+    margin: 100px;
+}
+
+.flexIntroItem {
+    display: inline-block;
+    /* margin: 0 auto; */
+    /* border-color: green; */
+    /* border-style: solid; */
+}
+
+
+/* begin 'Resume' CSS */
+
+.resumePageHeader {
+    font: pink;
+    text-align: center;
+    margin: 20px;
+    padding: 15px 25px 0px 10px;
+    /* border-color: blue; */
+    /* border-style: solid; */
+}
+
+.address {
+    margin: 10px;
+    padding-left: 40px;
+    /* border-color:purple; */
+    /* border-style: solid; */
+}
+
+#experience {
+    margin: 20px;
+    padding-left: 180px;
+    /* border-color: black; */
+    /* border-style: solid; */
+
+}
+
+#bcbs {
+    margin:10px;
+    padding-left: 200px;
+    /* border-color:yellow; */
+    /* border-style: solid; */
+
+}
+
+.position {
+    margin: 10px;
+    padding-left: 250px;
+    /* border-color: orange; */
+    /* border-style: solid; */
+
+}
+
+/*begin Projects CSS */
+
+.flexProjects {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lavenderblush;
+    /* border-color: black; */
+    /* border-style: dashed; */
+}
+
+.flexProjectsItem {
+    padding: 5px;
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    line-height: 150px;
+    color:mediumslateblue;
+    font-weight: bold;
+    text-align: center;
+    background-color: lavender;
+    /* font-size: 3em; */
+    /* border-color: red; */
+    /* border-style: dashed; */
+}
+
+#lazyRiver {
+
+    border-color: blue;
+    border-style: solid;
+}
+
+#dogAdoption {
+
+    border-color: red;
+    border-style: solid;
+}
+
+#html {
+
+    border-color: yellow;
+    border-style: solid;
+}
+
+#css {
+
+    border-color: orange;
+    border-style: solid;
+}
+
+.resumeFooter {
+    margin: 15px;
+    position: fixed;
+    bottom: 0;
+    border-color: magenta;
+    border-style: dashed;
+}
+
+.flexFooter {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    /* border-style: solid; */
+    /* border-color: aquamarine; */
+    position: absolute;
+    bottom: 0;
+
+}
+
+.flexFooterItem {
+    display: inline;
+    color:  red;
+}
+
+  
